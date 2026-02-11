@@ -51,29 +51,12 @@ export default function Home() {
               </a>
             </div>
           </div>
-          <div className="hero-visual reveal delay-1" aria-hidden="true">
-            <div className="phone">
-              <div className="phone-header">
-                <span className="dot" />
-                <span className="dot" />
-                <span className="dot" />
-              </div>
-              <div className="phone-body">
-                <div className="mini-card">
-                  <p>Due Today</p>
-                  <strong>Rs. 18,500</strong>
-                </div>
-                <div className="mini-card dark">
-                  <p>Customers</p>
-                  <strong>124</strong>
-                </div>
-                <div className="mini-card">
-                  <p>Payments</p>
-                  <strong>Rs. 52,000</strong>
-                </div>
-                <div className="graph" />
-              </div>
-            </div>
+          <div className="hero-visual reveal delay-1">
+            <img
+              className="hero-image"
+              src="/hero-image.jpg"
+              alt="Udharo app preview"
+            />
           </div>
         </section>
 

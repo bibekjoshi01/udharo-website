@@ -189,58 +189,11 @@ h3 {
   justify-content: center;
 }
 
-.phone {
-  width: min(340px, 90%);
+.hero-image {
+  width: min(420px, 90%);
+  height: auto;
   border-radius: 28px;
-  background: #0d1f16;
-  padding: 18px;
-  color: #fff;
   box-shadow: var(--shadow);
-  animation: float 6s ease-in-out infinite;
-}
-
-.phone-header {
-  display: flex;
-  gap: 6px;
-  margin-bottom: 18px;
-}
-
-.phone-header .dot {
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  background: rgba(255, 255, 255, 0.4);
-}
-
-.phone-body {
-  display: grid;
-  gap: 12px;
-}
-
-.mini-card {
-  padding: 12px;
-  border-radius: 14px;
-  background: rgba(255, 255, 255, 0.12);
-}
-
-.mini-card.dark {
-  background: rgba(127, 211, 162, 0.2);
-}
-
-.mini-card p {
-  font-size: 0.85rem;
-  opacity: 0.8;
-  margin-bottom: 6px;
-}
-
-.graph {
-  height: 120px;
-  border-radius: 16px;
-  background: linear-gradient(
-    135deg,
-    rgba(127, 211, 162, 0.4),
-    rgba(47, 143, 87, 0.2)
-  );
 }
 
 .highlight-grid {
@@ -314,16 +267,6 @@ h3 {
   }
 }
 
-@keyframes float {
-  0%,
-  100% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-10px);
-  }
-}
-
 @media (max-width: 900px) {
   .site-header {
     flex-direction: column;
@@ -348,8 +291,7 @@ h3 {
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .reveal,
-  .phone {
+  .reveal {
     animation: none;
   }
 }
