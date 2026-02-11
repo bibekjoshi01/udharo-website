@@ -34,20 +34,16 @@ export default function Home() {
             </p>
             <div className="cta-row">
               <a
-                className="btn primary"
+                className="store-link"
                 href="https://play.google.com/store/apps/details?id=your.app.id"
                 target="_blank"
                 rel="noreferrer"
               >
-                Download on Android
-              </a>
-              <a
-                className="btn ghost"
-                href="https://apps.apple.com/app/id0000000000"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Download on iOS
+                <img
+                  className="store-badge"
+                  src="/google-play.png"
+                  alt="Get it on Google Play"
+                />
               </a>
             </div>
           </div>
@@ -87,7 +83,6 @@ export default function Home() {
 
       <footer className="site-footer">
         <span>© 2026 Udharo.</span>
-        <a href="#top">Back to top</a>
       </footer>
     </div>
   );

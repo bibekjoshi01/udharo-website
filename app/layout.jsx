@@ -16,7 +16,7 @@ const manrope = Manrope({
 });
 
 export const metadata = {
-  title: "Udharo – Simple Nepali Ledger",
+  title: "Udharo - Simple Nepali Ledger",
   description:
     "A Nepali-first, offline-first khata app for shopkeepers to manage customers, credits, payments, and clean reports with backup, PDFs, and reminders."
 };

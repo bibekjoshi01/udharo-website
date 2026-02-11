@@ -159,29 +159,22 @@ h3 {
   margin-bottom: 12px;
 }
 
-.btn {
-  padding: 14px 22px;
-  border-radius: 12px;
-  font-weight: 600;
-  transition:
-    transform 0.2s ease,
-    box-shadow 0.2s ease;
+.store-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s ease;
 }
 
-.btn.primary {
-  background: var(--accent);
-  color: #fff;
-  box-shadow: 0 16px 28px rgba(47, 143, 87, 0.25);
-}
-
-.btn.ghost {
-  border: 1px solid var(--border);
-  background: #fff;
-  color: var(--ink);
-}
-
-.btn:hover {
+.store-link:hover {
   transform: translateY(-2px);
+}
+
+.store-badge {
+  height: 56px;
+  width: auto;
+  display: block;
+  border-radius: 10px;
 }
 
 .hero-visual {
