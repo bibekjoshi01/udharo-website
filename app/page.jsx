@@ -1,3 +1,5 @@
+import Footer from "./Footer";
+
 const highlights = [
   { title: "Offline-first", desc: "SQLite on device" },
   { title: "Reports", desc: "Today to Year" },
@@ -50,7 +52,7 @@ export default function Home() {
           <div className="hero-visual reveal delay-1">
             <img
               className="hero-image"
-              src="/hero-image.jpg"
+              src="/hero-image.jpeg"
               alt="Udharo app preview"
             />
           </div>
@@ -80,10 +82,7 @@ export default function Home() {
           </div>
         </section>
       </main>
-
-      <footer className="site-footer">
-        <span>© 2026 Udharo.</span>
-      </footer>
+      <Footer />
     </div>
   );
 }

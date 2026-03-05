@@ -183,7 +183,7 @@ h3 {
 }
 
 .hero-image {
-  width: min(420px, 90%);
+  width: min(350px, 90%);
   height: auto;
   border-radius: 28px;
   box-shadow: var(--shadow);
