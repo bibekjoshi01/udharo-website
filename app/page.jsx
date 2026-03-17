@@ -37,7 +37,7 @@ export default function Home() {
             <div className="cta-row">
               <a
                 className="store-link"
-                href="https://play.google.com/store/apps/details?id=your.app.id"
+                href="https://drive.google.com/file/d/14xtrRq5B0XvUGdpQMalI5DGrUxOMSe9i/view?usp=sharing"
                 target="_blank"
                 rel="noreferrer"
               >
