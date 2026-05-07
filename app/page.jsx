@@ -37,7 +37,7 @@ export default function Home() {
             <div className="cta-row">
               <a
                 className="store-link"
-                href="https://drive.google.com/file/d/14xtrRq5B0XvUGdpQMalI5DGrUxOMSe9i/view?usp=sharing"
+                href="https://play.google.com/store/apps/details?id=com.udharo.app.nepal&hl=en"
                 target="_blank"
                 rel="noreferrer"
               >
